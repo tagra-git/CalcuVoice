@@ -53,6 +53,8 @@ function buttonClick(event) {
         speak(text);
     }
 
+    let lastChar = concatText.slice(-1); // 直前の文字を取得
+
     if (text === "=") {
         try {
             if (concatText !== "") {
@@ -69,7 +71,12 @@ function buttonClick(event) {
     } else if (text === "CE") {
         concatText = concatText.slice(0, -1);
     } else {
-        concatText += text;
+        // 数学記号が連続しないようにする
+        if (operatorSpeech[text] && operatorSpeech[lastChar]) {
+            concatText = concatText.slice(0, -1) + text; // 直前の演算子を新しい演算子に置き換える
+        } else {
+            concatText += text;
+        }
     }
     updateDisplay();
 }
