@@ -19,8 +19,8 @@ JavaScriptの学習のために作成した音声が再生される電卓アプ�
 ## デモ
 [CalcuVoiceを試す](https://tagra-git.github.io/CalcuVoice/)
 
-![img_jp](https://github.com/tagra-git/CalcuVoice/blob/910c6d3cc33231c69439ddbe3a79da711acc319b/CalcuVoice_jp.png)
-![img_en](https://github.com/tagra-git/CalcuVoice/blob/910c6d3cc33231c69439ddbe3a79da711acc319b/CalcuVoice_en.png)
+![img_jp](https://github.com/tagra-git/CalcuVoice/blob/396903b9727cbc96c87317e93756f841ae42fbb1/CalcuVoice_jp.png)
+![img_en](https://github.com/tagra-git/CalcuVoice/blob/396903b9727cbc96c87317e93756f841ae42fbb1/CalcuVoice_en.png)
 
 ## 今後の修正
 
